@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>	CSS 3D Transform</title>
-	<style>	
 
-	#main {
-		width: 300px;
-		height:200px;
-		margin-left:200px;
-		background-color:brown;	
+<head>
+	<title> CSS 3D Transform</title>
+	<style>
+		#main {
+			width: 300px;
+			height: 200px;
+			margin-left: 200px;
+			background-color: brown;
 		}
-	#box {
-		width: 300px;
-		height:200px;
-		background-color:gray;
-		transform:perspective(100px) scale3d(2,2,4) rotateZ(30deg);
+
+		#box {
+			width: 300px;
+			height: 200px;
+			background-color: gray;
+			transform: perspective(100px) scale3d(2, 2, 4) rotateZ(30deg);
 	</style>
 </head>
 <!--
@@ -34,11 +35,13 @@ perspective(npx)
 matrix3d(n,n,n,n,n,n,n,n,
 n,n,n,n,n,n,n,n,)
 -->
+
 <body>
-	<div id = "main">
+	<div id="main">
 		<div id="box">
 			<p>Hi, How are you</p>
 		</div>
 	</div>
 </body>
+
 </html>
